@@ -1,0 +1,452 @@
+body {
+    background-color: beige;
+}
+
+html {
+	text-align: center;
+	align-items: center;
+}
+
+html,
+body {
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.Header {
+	height: 30px;
+	padding: 30px;
+	color: white;
+	text-align: center;
+	justify-content: space-between;
+
+}
+
+.Header a {
+	color: black;
+	text-decoration: none;
+
+	margin: 0 10px;
+}
+
+.Header a:hover {
+	color: blue;
+}
+
+.Header a.active {
+	color: blue;
+	text-decoration: none;
+}
+
+.titre {
+	text-align: center;
+}
+
+.presentation {
+	text-align: center;
+}
+
+
+.qualification {
+	text-align: center;
+
+
+}
+
+/* presentation competences */
+
+.Competences {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.left-box {
+	width: 50%;
+
+	text-align: center;
+	
+
+}
+
+
+.right-box {
+	width: 50%;
+	text-align: center;
+	
+}
+
+@media (max-width: 600px) {
+
+	.left-box,
+	.right-box {
+		width: 100%;
+	}
+}
+
+
+.containerImagePresentation {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 250px;
+}
+
+.ImageThomas {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	object-fit: cover;
+	object-position: center;
+	border: 2px solid black;
+}
+
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.logo {
+	display: block;
+	float: left;
+	font-size: 24px;
+	line-height: 60px;
+	padding: 0 20px;
+	text-decoration: none;
+}
+
+nav {
+	float: right;
+	line-height: 60px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 30px;
+}
+
+nav li:first-child {
+	margin-left: 0;
+}
+
+nav a {
+	display: block;
+	color: #fff;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #00a6ff;
+}
+
+.clearfix {
+	clear: both;
+}
+
+section {
+	padding: 50px 0;
+	background-color: #f2f2f2;
+}
+
+section h1 {
+	text-align: center;
+	margin: 0 0 30px;
+	font-size: 36px;
+}
+
+section p {
+	max-width: 800px;
+	margin: 0 auto;
+	line-height: 1.5;
+	font-size: 18px;
+	padding: 0 20px;
+}
+
+
+
+
+
+
+
+
+/*CSS POUR LA PARTIE PROJET FAIT EN COURS */
+
+.boutonProjet1,
+.boutonProjet2,
+.boutonProjet3,
+.boutonProjet4,
+.boutonProjet5,
+.boutonProjet6,
+.boutonProjet7,
+.boutonProjet8 {
+	display: block;
+	margin: 0 auto;
+	padding: 10px 20px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	background-color: grey;
+	text-decoration: none;
+	border-radius: 5px;
+	border: none;
+}
+
+.bouton:hover {
+	background-color: #666;
+}
+
+
+.ProjetCours1,
+.ProjetCours2,
+.ProjetCours3,
+.ProjetCours4,
+.ProjetCours5,
+.ProjetCours6,
+.ProjetCours7,
+.ProjetCours8 {
+	width: 50%;
+	height: auto;
+	float: left;
+	box-sizing: border-box;
+	/* Pour inclure les bordures et les padding dans la largeur et la hauteur */
+}
+
+
+/* containeur 1 Projet 1 première div */
+
+
+.ProjetCours1,
+.ProjetCours2,
+.ProjetCours3,
+.ProjetCours4,
+.ProjetCours5,
+.ProjetCours6,
+.ProjetCours7,
+.ProjetCours8 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	/* font-size: 150%; */
+}
+
+
+.Image1,
+.Image2,
+.Image3,
+.Image4,
+.Image5,
+.Image6,
+.Image7,
+.Image8 {
+	padding-top: 10px;
+	width: 50%;
+	height: 100%;
+}
+
+
+
+.projets-container,
+.projets-container2,
+.projets-container3,
+.projets-container4,
+.projets-container5,
+.projets-container6,
+.projets-container7,
+.projets-container8 {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.Projets-container6 {
+	margin-bottom: 50px;
+}
+
+
+
+.Projet1Description,
+.Projet2Description,
+.Projet3Description,
+.Projet4Description,
+.Projet5Description,
+.Projet6Description,
+.Projet7Description,
+.Projet8Description {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.Projet1Description .boutonProjet1 {
+	display: inline-block;
+	background-color: blue;
+	color: white;
+
+	/* margin-top: 25%; */
+
+}
+
+
+
+.Projet2Description .boutonProjet2 {
+	display: inline-block;
+	background-color: blue;
+	color: white;
+	padding: 10px 20px;
+}
+
+.Projet3Description .boutonProjet3 {
+	display: inline-block;
+	background-color: blue;
+	color: white;
+}
+
+.Projet4Description .boutonProjet4 {
+	display: inline-block;
+	background-color: blue;
+	color: white;
+}
+
+.Projet5Description .boutonProjet5 {
+	display: inline-block;
+	background-color: blue;
+	color: white;
+}
+
+.Projet6Description .boutonProjet6 {
+	display: inline-block;
+	background-color: blue;
+	color: white;
+}
+
+.Projet7Description .boutonProjet7 {
+	display: inline-block;
+	background-color: blue;
+	color: white;
+}
+
+.Projet8Description .boutonProjet8 {
+	display: inline-block;
+	background-color: blue;
+	color: white;
+}
+
+
+
+/* containeur 2 Projet 2  */
+
+
+
+
+
+
+
+
+/* Pour effacer les bordures par défaut des boutons */
+button {
+	border: none;
+}
+
+/* Pour ajouter une bordure autour des boutons au survol */
+button:hover {
+	border: 1px solid #ccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* CSS POUR LA PARTIE CONTACT.HTML */
+
+
+
+form {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+input,
+textarea {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+textarea {
+	height: 150px;
+}
+
+/* button {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+button:hover {
+	background-color: #3e8e41;
+} */
+
+
+
+
+/*-------------------FOOTER-------------------------- */
+
+
+.footer {
+	position: relative;
+	bottom: 0;
+	/* on le colle en bas */
+	width: 100%;
+	height: 25px;
+	background-color: #333;
+	color: #fff;
+
+
+}

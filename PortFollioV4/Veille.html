@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Veille technologique</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="css2.css">
+
+</head>
+
+<body>
+
+  <header class="Header">
+    <div class="enTete">
+
+      <a href="index.html"> Présentation</a>
+      <!--à rajouter comme sur le screnn les qualification sur la même page-->
+      <a href="index.html#competence"> Compétences</a>
+      <a href="index2.html"> Projet en Stage</a>
+      <a href="index3.html"> Projet en Cours</a>
+      <a href="Veille.html" class="active"> Veille</a>
+      <a href="contact.html"> Contact</a>
+
+    </div>
+  </header>
+
+
+
+  <h1> Veille </h1>
+
+
+
+  <div class="vue">
+    <img src="vueJS.png">
+
+    <h1>Introduction : </h1> 
+    <br>
+    <h2> 1. Vue.js </h2>
+    <br>
+    Vue.js c'est un framework JavaScript populaire pour la création d'interfaces utilisateur dynamiques et réactives
+    <br>
+    <br>
+    Vue.js est un framework JavaScript open source créé par Evan You en 2014.
+    <br>
+    <br>
+    Il est conçu pour faciliter la construction d'interfaces web interactives en adoptant une approche basée sur les
+    composants.
+    <br>
+    <br>
+    Vue.js se concentre sur la simplicité et la flexibilité, ce qui le rend adapté aux petits projets et aux
+    applications web plus complexes.
+    </p>
+
+    <h2> 2. Les fonctionnalités de Vue.js </h2>
+    <p>
+      Composants : Vue.js permet de créer des composants réutilisables, facilitant ainsi la gestion de l'interface
+      utilisateur
+      <br>
+      <br>
+      Les directives de Vue.js offrent un moyen déclaratif de manipuler le DOM, permettant ainsi un contrôle précis sur
+      la façon dont les éléments sont rendus.
+      <br>
+      <br>
+      Réactivité : Le système de réactivité de Vue.js met automatiquement à jour les éléments affectés par les
+      changements de données.
+    </p>
+
+    <h2> L'implémentation </h2>
+
+    <p>Il faut inclure la bibliothèque Vue.js dans notre page web grâce à une balise script.
+      <br>
+      <br>
+      La création d'une balise racine qui permettra le fonctionnement de Vue.js.
+      <br>
+      <br>
+      Ainsi que la création d'une nouvelle vue avec son instance
+      <br>
+      <br>
+      Cette vue permet donc de définir les données de l'application, ainsi que la liaison entre la balise racine et
+      l'instance
+      <br>
+      <br>
+    </p>
+
+    <h2> Différents test </h2>
+
+    <h3>Vue 1</h3>
+
+    <p>L'affichage d'un nom et d'un message qui sont défini dans l'instance de la vue</p>
+
+    <button class="BoutonVeille" onclick="window.location.href = 'Vuejs/vue.html'">Premier test</button>
+
+    <br>
+    <br>
+
+    <h3>Vue 2</h3>
+
+    <p>La création d'un champs input pour pouvoir rentrer le nom de l'user et que cela change le message qui afficher le
+      nom de l'user préalablement défini.
+      <br>
+      <br>
+      Avec l'utilisation de la directive v-model="user" qui permet donc de créer une liaison entre un champ de
+      formulaire et une propriété de l'instance Vue.
+      <br>
+      <br>
+      Ainsi que la création d'un tableau avec différents produits dans l'instance :
+      Utilisation de la dirrective v-for qui permet d'itérer sur une liste ou un tableau et de générer dynamiquement des
+      éléments.
+    </p>
+
+    <button onclick="window.location.href = 'Vuejs/vue2.html'">Deuxième test</button>
+    <br>
+    <br>
+
+    <h3>Vue 3</h3>
+
+    <p>L'ajout d'un bouton commander qui nous permet de récupérer le nom du produit selectionné avec la directive
+      v-on:click qui permet d'attacher des méthodes à leur déclenchement, ici l'utilisation du onclick.
+    </p>
+
+    <button onclick="window.location.href = 'Vuejs/vue3.html'">Troisième test</button>
+    <br>
+    <br>
+
+    <h3>Vue 4</h3>
+
+    <p>La création d'un tableau des commandes pour stockés les éléments commandé dedans.
+      <br>
+      <br>
+      Ainsi la création d'un champs liste pour pouvoir les affichés en utilisant v-for pour parcourir le tableau
+      produits et les affichés à la suite.
+      <br>
+      <br>
+      Ce champs n'apparait uniquement si le tableau des commandes possède un élément ou plus. Ici l'utilisation de la
+      directive v-if qui permet de donner une condition d'affichage à la liste.
+      <br>
+      <br>
+    </p>
+
+    <button onclick="window.location.href = 'Vuejs/vue4.html'">Quatrième test</button>
+    <br>
+    <br>
+
+    <h3>Vue 5</h3>
+
+    <p>L'implémentation d'un composant qui est un bloc de construction réutilisables qui permet de structurer et
+      d'organiser de manière modulaire l'interface utilisateur d'une application web
+      <br>
+      <br>
+      Ici la création d'un composant fiche produit qui permet d'afficher tous les produits disponibles dans la liste.
+      <br>
+      <br>
+
+    </p>
+
+    <button onclick="window.location.href = 'Vuejs/vue5.html'">Dernier test</button>
+
+
+    <h1>Conclusion</h1>
+
+    <p> En conclusion, ma veille technologique sur Vue.js a suscité un grand intérêt de ma part en raison de son utilité et de ses nombreux avantages.
+
+      
+      <br>
+      <br>
+      L'utilisation de Vue.js s'avère extrêmement bénéfique dans le développement d'interfaces web modernes</p>
+
+
+
+
+
+  </div>
+
+  </head>
+
+  <body>
+
+  </body>
+
+</html>
+
+
+
+
+
+
+
+
+<footer>
+  <div class="footer">
+    <p>Copyright 2023 © SOARES Thomas</p>
+  </div>
+</footer>
+
+</body>
+
+</html>
